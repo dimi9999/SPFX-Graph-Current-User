@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ms-graph-current-user-client-side-solution",
+    "id": "84b8acd4-3cfa-4e96-b88e-6c4b9ce931f7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ms-graph-current-user.sppkg"
+  }
+}
